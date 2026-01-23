@@ -1,5 +1,5 @@
 {
-  "name": "pimcore/skeleton",
+  "name": "six-it/pimcore-skeleton",
   "type": "project",
   "license": "GPL-3.0-or-later",
   "config": {
@@ -13,7 +13,7 @@
   "prefer-stable": true,
   "require": {
     "pimcore/pimcore": "*",
-    "pimcore/platform-version": "^2024.4",    
+    "pimcore/platform-version": "^2024.4",
     "pimcore/admin-ui-classic-bundle": "*",
     "pimcore/quill-bundle": "*",
     "symfony/amqp-messenger": "^6.2",
