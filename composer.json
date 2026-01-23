@@ -12,7 +12,7 @@
   },
   "prefer-stable": true,
   "require": {
-    "pimcore/pimcore": "*",
+    "six-it/pimcore-source": "^v11.5.14.1-sixit.1.0.0",
     "pimcore/platform-version": "^2024.4",
     "pimcore/admin-ui-classic-bundle": "*",
     "pimcore/quill-bundle": "*",
