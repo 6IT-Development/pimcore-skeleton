@@ -19,7 +19,6 @@
   ],
   "require": {
     "six-it/pimcore-source": "*",
-    "six-it/platform-version": "*",
     "six-it/admin-ui-classic-bundle": "*",
     "six-it/quill-bundle": "*",
     "symfony/amqp-messenger": "^6.2",
