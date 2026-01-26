@@ -11,8 +11,14 @@
     }
   },
   "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/6IT-Development/pimcore-source"
+    }
+  ],
   "require": {
-    "six-it/pimcore-source": "^v11.5.14.1-sixit.1.0.0",
+    "six-it/pimcore-source": "*",
     "pimcore/platform-version": "^2024.4",
     "pimcore/admin-ui-classic-bundle": "*",
     "pimcore/quill-bundle": "*",
