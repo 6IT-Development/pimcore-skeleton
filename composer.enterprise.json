@@ -1,5 +1,5 @@
 {
-  "name": "pimcore/skeleton",
+  "name": "six-it/pimcore-skeleton",
   "type": "project",
   "license": "GPL-3.0-or-later",
   "config": {
@@ -12,9 +12,8 @@
   },
   "prefer-stable": true,
   "require": {
-    "pimcore/pimcore": "*",
-    "pimcore/platform-version": "^2024.3",    
-    "pimcore/admin-ui-classic-bundle": "*",
+    "six-it/pimcore-source": "*",
+    "six-it/admin-ui-classic-bundle": "*",
     "symfony/amqp-messenger": "^6.2",
     "symfony/dotenv": "^6.2",
     "symfony/runtime": "^6.2"
@@ -39,14 +38,8 @@
   },
   "scripts": {
     "post-create-project-cmd": "Pimcore\\Composer::postCreateProject",
-    "post-install-cmd": [
-      "Pimcore\\Composer::postInstall",
-      "@pimcore-scripts"
-    ],
-    "post-update-cmd": [
-      "Pimcore\\Composer::postUpdate",
-      "@pimcore-scripts"
-    ],
+    "post-install-cmd": ["Pimcore\\Composer::postInstall", "@pimcore-scripts"],
+    "post-update-cmd": ["Pimcore\\Composer::postUpdate", "@pimcore-scripts"],
     "pimcore-scripts": [
       "Pimcore\\Composer::clearCache",
       "Pimcore\\Composer::installAssets"
