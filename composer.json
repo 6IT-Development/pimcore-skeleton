@@ -15,6 +15,14 @@
     {
       "type": "vcs",
       "url": "https://github.com/6IT-Development/pimcore-source"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/6IT-Development/admin-ui-classic-bundle"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/6IT-Development/quill-bundle"
     }
   ],
   "require": {
