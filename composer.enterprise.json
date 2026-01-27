@@ -1,6 +1,7 @@
 {
   "name": "six-it/pimcore-skeleton",
   "type": "project",
+  "description": "Six-IT Pimcore skeleton",
   "license": "GPL-3.0-or-later",
   "config": {
     "optimize-autoloader": true,
