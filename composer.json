@@ -20,10 +20,7 @@
     "symfony/dotenv": "^6.2",
     "symfony/runtime": "^6.2"
   },
-  "require-dev": {
-    "codeception/codeception": "^5.0.3",
-    "codeception/module-symfony": "^3.1.0"
-  },
+  "require-dev": {},
   "suggest": {
     "pimcore/data-hub": "Universal data interface for GraphQL, CSV and other formats"
   },
