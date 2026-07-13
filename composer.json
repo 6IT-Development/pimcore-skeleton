@@ -13,12 +13,13 @@
   },
   "prefer-stable": true,
   "require": {
-    "six-it/pimcore-source": "*",
-    "six-it/admin-ui-classic-bundle": "*",
-    "six-it/quill-bundle": "*",
-    "symfony/amqp-messenger": "^6.2",
-    "symfony/dotenv": "^6.2",
-    "symfony/runtime": "^6.2"
+    "php": "^8.4",
+    "six-it/pimcore-source": "^2.0.0",
+    "six-it/admin-ui-classic-bundle": "^2.0.0",
+    "six-it/quill-bundle": "^2.0.0",
+    "symfony/amqp-messenger": "^7.4",
+    "symfony/dotenv": "^7.4",
+    "symfony/runtime": "^7.4"
   },
   "require-dev": {},
   "suggest": {
