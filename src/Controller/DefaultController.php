@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Controller;
 
 use Pimcore\Bundle\AdminBundle\Controller\Admin\LoginController;
@@ -19,6 +21,6 @@ class DefaultController extends FrontendController
      */
     public function loginAction(): Response
     {
-        return $this->forward(LoginController::class.'::loginCheckAction');
+        return $this->forward(LoginController::class . '::loginCheckAction');
     }
 }

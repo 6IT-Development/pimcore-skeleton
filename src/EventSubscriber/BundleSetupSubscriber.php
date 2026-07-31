@@ -44,6 +44,7 @@ class BundleSetupSubscriber implements EventSubscriberInterface
                 true
             );
         }
+
         if (class_exists(PimcoreQuillBundle::class)) {
             $event->addRequiredBundle(
                 'PimcoreQuillBundle',
