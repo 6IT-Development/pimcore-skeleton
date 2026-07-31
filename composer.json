@@ -13,7 +13,7 @@
   },
   "prefer-stable": true,
   "require": {
-    "php": "^8.4",
+    "php": "~8.4.0",
     "six-it/pimcore-source": "^2.0",
     "six-it/admin-ui-classic-bundle": "^2.0",
     "six-it/quill-bundle": "^2.0",
